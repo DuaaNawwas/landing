@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+  @apply bg-gradient-to-r from-purple-600 via-purple-400 to-red-400;
+}
+
+.animated-text {
+  animation: text-animation 8s infinite;
+}
+
+@keyframes text-animation {
+  0%{
+    top: 0;
+  }
+  25%{
+    top: -8rem;    
+  }
+  50%{
+    top: -16rem;
+  }
+  72.5%{
+    top: -8rem;
+  }
+}
+
