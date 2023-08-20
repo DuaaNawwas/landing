@@ -36,5 +36,6 @@
 
 ::-webkit-scrollbar-thumb {
   background: #B46EF8;
+  border-radius: 50px;
 }
 
