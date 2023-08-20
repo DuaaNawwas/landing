@@ -1,3 +1,5 @@
+"use client";
+
 import Button from "@/components/button";
 import Play from "@/icons/play";
 import { FC, memo } from "react";

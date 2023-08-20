@@ -1,3 +1,4 @@
+"use client";
 import { FC } from "react";
 import Header from "./components/header";
 import Heading from "./components/heading";
@@ -8,7 +9,7 @@ const HeroSection: FC<HeroSectionProps> = ({}) => {
 
   return (
     <>
-      <div className="hero h-screen w-screen overflow-hidden">
+      <div className="hero h-screen w-screen">
         <Header />
         <div className="grid lg:grid-cols-2 gap-5 px-0 md:px-32 md:py-10">
           <Heading />

@@ -1,3 +1,5 @@
+"use client";
+
 import Button from "@/components/button";
 import LogoIcon from "@/icons/logo";
 import { FC, memo } from "react";
