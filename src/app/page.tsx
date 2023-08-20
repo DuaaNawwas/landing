@@ -3,6 +3,7 @@
 import HeroSection from "@/sections/section1";
 import ProgramsSection from "@/sections/section2";
 import ValuesSection from "@/sections/section3";
+import BannerSection from "@/sections/section4";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <ProgramsSection />
       <ValuesSection />
+      <BannerSection />
     </div>
   );
 }
