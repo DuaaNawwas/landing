@@ -8,7 +8,7 @@ import { BsFillStarFill } from "react-icons/bs";
 
 interface ValuesSectionProps {}
 
-const ValuesSection: FC<ValuesSectionProps> = memo(({}) => {
+const ValuesSection: FC<ValuesSectionProps> = (({}) => {
   return (
     <section
       id="services"

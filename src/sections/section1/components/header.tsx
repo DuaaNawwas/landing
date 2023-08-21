@@ -64,7 +64,7 @@ const Header: FC = () => {
 
             <div className="flex items-center gap-4">
               <div className="sm:flex sm:gap-4">
-                <Button size="sm">Let's Talk</Button> 
+                <Button size="sm">Let&apos;s Talk</Button> 
               </div>
             </div>
           </div>
